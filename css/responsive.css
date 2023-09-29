@@ -1,21 +1,21 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .site-header {
         width: 100%;
     }
     .container {
-        width: 85%;
+        width: 90%;
     }
     .lessons {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .site-header {
         width: 100%;
     }
     .container {
-        width: 85%;
+        width: 90%;
     }
     .lessons {
         width: 100%;
@@ -34,11 +34,17 @@
         gap: 3rem;
     }
     .lessons .col {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;       
     }
     .steps .col {
-        width: 90%;
+        width: 100%;
         margin: 0 auto; 
+    }
+    .why-us .col-left {
+        width: 100%;
+    }
+    .why-us .col-right {
+        width: 100%;
     }
 }
