@@ -1,24 +1,18 @@
 @media screen and (min-width: 769px) {
-    .site-header {
+    .site-header, .lessons {
         width: 100%;
     }
     .container {
         width: 90%;
-    }
-    .lessons {
-        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .site-header {
+    .site-header, .lessons {
         width: 100%;
     }
     .container {
         width: 90%;
-    }
-    .lessons {
-        width: 100%;
     }
     h2 {
         margin-bottom: 1.5rem;
@@ -26,6 +20,14 @@
 }
 
 @media screen and (max-width: 480px) {
+    .steps {
+        margin-bottom: 0;
+    }
+    .why-us {
+        padding: 3rem 0;
+        margin-bottom: 0;
+        background-color: rgb(58, 58, 58);
+    }
     h2 {
         margin-bottom: 3rem;
     }
@@ -33,18 +35,7 @@
         flex-direction: column;
         gap: 3rem;
     }
-    .lessons .col {
-        width: 100%;
-        margin: 0 auto;       
-    }
-    .steps .col {
-        width: 100%;
-        margin: 0 auto; 
-    }
-    .why-us .col-left {
-        width: 100%;
-    }
-    .why-us .col-right {
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
         width: 100%;
     }
 }
